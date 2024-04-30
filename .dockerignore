@@ -1,0 +1,7 @@
+*.env
+*.bat
+
+AWS
+db.sqlite3
+**/__pycache__
+postgres_data
