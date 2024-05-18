@@ -14,11 +14,8 @@ from .models import (
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = User
-        fields = [
-            "id",
-            "username",
-        ]
-        read_only_fields = ["id"]
+        fields = ["id", "name", "email"]
+        # read_only_fields = ["id"]
 
 
 class ListingSerializer(serializers.HyperlinkedModelSerializer):

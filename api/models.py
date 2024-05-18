@@ -13,11 +13,13 @@ class Auth(models.Model):
     prompt = models.CharField(max_length=200)
 
 
-class User(CustomIDModel, TimeStampedModel):
-    username = models.CharField(max_length=200)
+class User(TimeStampedModel):
+    name = models.CharField(max_length=200)
+    id = models.CharField(max_length=200, primary_key=True)
+    email = models.CharField(max_length=200)
 
     def __str__(self):
-        return f"{self.username}"
+        return f"name: {self.name}, id: {self.id}"
 
     class Meta:
         ordering = ["created"]
@@ -41,7 +43,7 @@ class Cart(TimeStampedModel, CustomIDModel):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
 
     def __str__(self):
-        return f"Cart for {self.user.username}"
+        return f"Cart for {self.user.name}"
 
 
 class CartItem(TimeStampedModel, CustomIDModel):
@@ -57,7 +59,7 @@ class Wishlist(TimeStampedModel, CustomIDModel):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
 
     def __str__(self):
-        return f"Wishlist for {self.user.username}"
+        return f"Wishlist for {self.user.name}"
 
 
 class WishlistItem(TimeStampedModel, CustomIDModel):

@@ -56,6 +56,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    # "backend.middleware.APIKeyMiddleware",
 ]
 
 ROOT_URLCONF = "backend.urls"
@@ -88,7 +89,7 @@ DATABASES = {
         "NAME": os.getenv("POSTGRES_NAME"),
         "USER": os.getenv("POSTGRES_USER"),
         "PASSWORD": os.getenv("POSTGRES_PASSWORD"),
-        "HOST": "db",
+        "HOST": os.getenv("POSTGRES_NAME"),
         "PORT": os.getenv("POSTGRES_PORT"),
     }
 }
@@ -118,7 +119,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "Asia/Singapore"
+# TIME_ZONE = "Asia/Singapore"
+TIME_ZONE = "Asia/Jakarta"
 
 USE_I18N = True
 
@@ -131,6 +133,8 @@ USE_TZ = True
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
 STATIC_URL = "static/"
+
+CLIENT_ENCODING: "UTF8"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
@@ -161,11 +165,15 @@ REST_FRAMEWORK = {
 #     "http://127.0.0.1:9000",
 # ]
 
-CORS_ALLOW_ALL_ORIGINS: True
+CORS_ALLOW_ALL_ORIGINS = True
 
 # CORS_ALLOW_METHODS: Sequence[str]
 
-# CORS_ALLOW_HEADERS: Sequence[str]
+CORS_ALLOW_HEADERS = [
+    "content-type",
+    "authorization",
+    "x-api-key",
+]
 
 # CSRF_TRUSTED_ORIGINS = [
 #     "https://read-and-write.example.com",
