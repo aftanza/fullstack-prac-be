@@ -41,8 +41,12 @@ def code_token_exchange(code):
 def verify_id_token(token):
     try:
         idinfo = id_token.verify_oauth2_token(
-            token, google_requests.Request(), GOOGLE_CLIENT_ID
+            token, google_requests.Request(), GOOGLE_CLIENT_ID, clock_skew_in_seconds=10
         )
+
+        if "accounts.google.com" not in idinfo["iss"]:
+            raise ValueError("The token is either invalid or has expired")
+
         # print("idinfo: ", idinfo)
         idinfo_res = {
             "email": idinfo["email"],

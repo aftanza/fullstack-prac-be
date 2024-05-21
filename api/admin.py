@@ -13,15 +13,15 @@ class UserAdmin(admin.ModelAdmin):
 class ListingAdmin(admin.ModelAdmin):
     list_display = (
         "id",
-        "title",
-        "description",
+        "product_name",
+        "product_description",
         "quantity",
         "price",
         "user",
         "created",
         "modified",
     )
-    search_fields = ("title", "description", "user__name")
+    search_fields = ("product_name", "product_description", "user__name")
     list_filter = ("created", "modified")
 
 

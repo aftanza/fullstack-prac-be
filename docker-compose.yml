@@ -18,8 +18,8 @@ services:
             interval: 10s
             timeout: 5s
             retries: 5
-        volumes:
-            - ./postgres_data:/var/lib/postgresql/data
+        # volumes:
+        #     - ./postgres_data:/var/lib/postgresql/data
     api:
         container_name: api-container
         build:

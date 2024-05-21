@@ -1,6 +1,6 @@
 from django.shortcuts import render
 import time
-from rest_framework import viewsets, views, status, generics
+from rest_framework import viewsets, views, status
 from rest_framework.response import Response
 from rest_framework.renderers import JSONRenderer
 from rest_framework.parsers import JSONParser

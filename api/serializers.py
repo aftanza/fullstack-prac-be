@@ -15,21 +15,22 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = User
         fields = ["id", "name", "email"]
-        # read_only_fields = ["id"]
+        read_only_fields = ["created", "modified"]
 
 
 class ListingSerializer(serializers.HyperlinkedModelSerializer):
-    productName = CharField(source="title", required=True)
-    productDescription = CharField(source="description", required=True)
+    # product_name = CharField(source="title", required=True)
+    # product_description = CharField(source="description", required=True)
 
     class Meta:
         model = Listing
         fields = [
             "id",
-            "productName",
-            "productDescription",
+            "product_name",
+            "product_description",
             "quantity",
             "price",
+            "category",
             "user",
             "created",
             "modified",

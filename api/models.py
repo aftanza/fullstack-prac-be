@@ -27,16 +27,19 @@ class User(TimeStampedModel):
         # verbose_name_plural = "Learning Modules"
 
 
-class Listing(TitleDescriptionModel, TimeStampedModel, CustomIDModel):
+class Listing(TimeStampedModel, CustomIDModel):
+    product_name = models.CharField(max_length=200)
+    product_description = models.TextField()
     quantity = models.IntegerField(default=1)
     price = models.DecimalField(max_digits=20, decimal_places=2)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
+    category = models.CharField(max_length=200)
 
     class Meta:
         ordering = ["created"]
 
     def __str__(self):
-        return f"Listing of {self.title} w/ quan {self.quantity} and price {self.price}"
+        return f"Listing of {self.title} w/ quan {self.quantity}, price {self.price}, category {self.category}"
 
 
 class Cart(TimeStampedModel, CustomIDModel):
