@@ -33,6 +33,7 @@ class ListingSerializer(serializers.HyperlinkedModelSerializer):
             "category",
             "user",
             "created",
+            "image_url",
             "modified",
         ]
         read_only_fields = ["id", "created", "modified"]

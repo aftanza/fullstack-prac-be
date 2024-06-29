@@ -34,6 +34,7 @@ class Listing(TimeStampedModel, CustomIDModel):
     price = models.DecimalField(max_digits=20, decimal_places=2)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     category = models.CharField(max_length=200)
+    image_url = models.CharField(max_length=200)
 
     class Meta:
         ordering = ["created"]

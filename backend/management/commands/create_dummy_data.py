@@ -49,6 +49,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 22,
             "price": 299.48,
             "category": "Technology",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Laptop",
@@ -56,6 +57,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 10,
             "price": 1200.00,
             "category": "Technology",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Headphones",
@@ -63,6 +65,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 50,
             "price": 199.99,
             "category": "Technology",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Smartwatch",
@@ -70,6 +73,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 35,
             "price": 149.99,
             "category": "Technology",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Tablet",
@@ -77,6 +81,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 25,
             "price": 499.99,
             "category": "Technology",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Camera",
@@ -84,6 +89,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 15,
             "price": 899.99,
             "category": "Technology",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Router",
@@ -91,6 +97,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 40,
             "price": 89.99,
             "category": "Technology",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Monitor",
@@ -98,6 +105,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 12,
             "price": 349.99,
             "category": "Technology",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "External Hard Drive",
@@ -105,6 +113,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 30,
             "price": 89.99,
             "category": "Technology",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Keyboard",
@@ -112,6 +121,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 20,
             "price": 79.99,
             "category": "Technology",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
     ]
     home_items = [
@@ -121,6 +131,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 5,
             "price": 799.99,
             "category": "Home & Living",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Dining Table",
@@ -128,6 +139,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 8,
             "price": 499.99,
             "category": "Home & Living",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Bed",
@@ -135,6 +147,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 3,
             "price": 599.99,
             "category": "Home & Living",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Armchair",
@@ -142,6 +155,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 10,
             "price": 299.99,
             "category": "Home & Living",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Bookshelf",
@@ -149,6 +163,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 7,
             "price": 199.99,
             "category": "Home & Living",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Coffee Table",
@@ -156,6 +171,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 12,
             "price": 149.99,
             "category": "Home & Living",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Lamp",
@@ -163,6 +179,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 20,
             "price": 89.99,
             "category": "Home & Living",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Curtains",
@@ -170,6 +187,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 15,
             "price": 59.99,
             "category": "Home & Living",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Rug",
@@ -177,6 +195,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 10,
             "price": 129.99,
             "category": "Home & Living",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Mirror",
@@ -184,6 +203,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 5,
             "price": 99.99,
             "category": "Home & Living",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
     ]
     etc_items = [
@@ -193,6 +213,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 30,
             "price": 9.99,
             "category": "Books",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Toy Car",
@@ -200,6 +221,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 15,
             "price": 29.99,
             "category": "Toys",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Watch",
@@ -207,6 +229,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 20,
             "price": 89.99,
             "category": "Accessories",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Board Game",
@@ -214,6 +237,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 25,
             "price": 19.99,
             "category": "Toys",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Sunglasses",
@@ -221,6 +245,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 18,
             "price": 49.99,
             "category": "Accessories",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Backpack",
@@ -228,6 +253,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 10,
             "price": 39.99,
             "category": "Accessories",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Water Bottle",
@@ -235,6 +261,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 50,
             "price": 14.99,
             "category": "Sports & Outdoors",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Yoga Mat",
@@ -242,6 +269,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 30,
             "price": 24.99,
             "category": "Sports & Outdoors",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Cookbook",
@@ -249,6 +277,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 20,
             "price": 29.99,
             "category": "Books",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Umbrella",
@@ -256,6 +285,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 40,
             "price": 19.99,
             "category": "Accessories",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Scarf",
@@ -263,6 +293,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 25,
             "price": 15.99,
             "category": "Clothing",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Hat",
@@ -270,6 +301,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 10,
             "price": 25.99,
             "category": "Clothing",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Bluetooth Speaker",
@@ -277,6 +309,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 15,
             "price": 59.99,
             "category": "Technology",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Notebook",
@@ -284,6 +317,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 35,
             "price": 12.99,
             "category": "Stationery",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Pen Set",
@@ -291,13 +325,14 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 20,
             "price": 29.99,
             "category": "Stationery",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Planner",
             "product_description": "2024 daily planner",
             "quantity": 40,
-            "price": 19.99,
             "category": "Stationery",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Travel Mug",
@@ -305,6 +340,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 25,
             "price": 14.99,
             "category": "Kitchen",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Cutlery Set",
@@ -312,6 +348,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 10,
             "price": 49.99,
             "category": "Kitchen",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Picture Frame",
@@ -319,6 +356,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 30,
             "price": 14.99,
             "category": "Home & Living",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
         {
             "product_name": "Candle",
@@ -326,6 +364,7 @@ def create_dummy_listings(techSeller, homeSeller, etcSeller):
             "quantity": 50,
             "price": 9.99,
             "category": "Home & Living",
+            "image_url": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         },
     ]
 
